@@ -1,7 +1,14 @@
 <?php
+
+  include_once('Pessoa.php');
+  
   $nome = $_POST['nome'];
 
   $conn = mysqli_connect("localhost", "root", "root", "revisao");
+
+  $pessoa = new Pessoa($nome);
+
+  $pessoa->savePerson($conn,$nome);
 
   if (mysqli_connect_errno())
   {
