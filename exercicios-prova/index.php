@@ -14,7 +14,7 @@
 						<select name='estado'>
 							<?php
 								foreach ($resul as $r) {
-									echo "<option>" . $r[2] . "</option>";
+									echo "<option>$r[2]</option>";
 								}
 							?>
 						</select>
