@@ -1,0 +1,19 @@
+.title{
+  color: blue;
+  width: 100%;
+}
+
+.table{
+        margin:2;
+        padding:0;
+}
+.linha{
+    padding:0;
+    clear:both;
+}
+.coluna{
+    height:25px;
+    border: 1px solid #000000;
+    width:120;
+    float:left;
+}

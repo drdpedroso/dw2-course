@@ -9,7 +9,7 @@ class Pessoa {
   }
 
   public function savePerson($conn, $nome){
-
+    mysqli_query($conn, "INSERT INTO cliente (nome) VALUES ('$nome')");
   }
 }
 
